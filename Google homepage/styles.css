@@ -1,0 +1,154 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            font-family: sans-serif;
+            
+        }
+
+        .nav1{
+            display: flex;
+            padding: 15px;
+        }
+
+        .li1{
+            margin-right: 20px;  
+            cursor: pointer;
+        }
+        
+        .nav2{
+            display: flex;
+            float: right;
+            padding: 15px;
+        }
+
+        .li2{
+            margin-right: 25px;
+            cursor: pointer;
+        }
+    
+        div{
+            margin-top: 13%;
+            margin-left: 42%;
+            min-width: 500px;
+        }
+
+        input{ 
+            background-color: white;
+            width: 480px;
+            height: 41px;
+            border: none; 
+        
+        }
+        input:focus{
+            outline: none;
+            text-indent: 10px;
+        }
+
+        .button1{
+          margin-left: 43%;
+          margin-top: 2%;
+          width: 110px;
+          height: 30px;
+          border-color: transparent; 
+          cursor: pointer;
+        }
+
+        .button2{
+            margin-left: 1%;
+            margin-top: 2%;
+            width: 120px;
+            height: 30px;
+            border-color: transparent;
+            cursor: pointer;
+        }
+        button:hover{
+            border-color: lightgray;
+        }
+
+        footer{
+            background-color: rgb(235, 234, 234);
+            color: gray; 
+            height: 30px;
+            margin-top: 176px;
+            padding: 20px;
+            padding-left: 35px;
+            font-size: medium;
+            width: 100%; 
+            display: flex;
+        }
+        
+        .footerinfo{
+            display: flex;
+            float: left;  
+        }
+
+        .footinfo{
+          margin-left: 25px;
+          cursor: pointer;
+        }
+
+        .footersettings{
+            display: flex;
+            float: right;
+            padding: 25px;
+            margin-left: 50%;   
+        }
+
+        .footsett{
+          margin-left: 25px;
+          float: right; 
+          cursor: pointer;
+        }
+
+        .languages{
+            display: flex;
+            margin-left: 37%;
+            margin-top: 25px;
+        }
+
+        .langu{
+            margin-right: 10px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        form:hover{
+            box-shadow: 0 0 5px gray;
+            border-color: transparent;
+        }
+
+        form:focus{
+            border-color: lightgray;
+            outline: none;
+            text-indent: 20px;
+        }
+
+        form{
+            background-color: white;
+            border-radius: 25px;
+            border: 1px solid lightgray;
+            width: 600px;
+            height: 50px;
+            margin-top: 2%;
+            margin-left: 32%;
+            font-size: 20;    
+        }
+
+        ion-icon{
+            font-size: 18px;  
+            cursor: pointer;
+        }
+    
+        
+       
+    
